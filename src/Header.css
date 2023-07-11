@@ -1,0 +1,479 @@
+.header-logo{
+    width: 100px;
+    margin-right: 20px;
+}
+.header{
+    display: flex;
+    background-color: #131921;
+    height: 60px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-img{
+    height: 50px;
+
+
+}
+
+.header-bottom {
+    background-color: #232f3e;
+}
+
+.header-bottom ul {
+    list-style: none;
+    padding: 5px 30px 10px 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom ul li {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.header-bottom ul menu {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+
+
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    flex: 1;
+    overflow: hidden;
+    
+}
+
+.header-search input {
+   
+    height:25px;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    width: 80%;
+}
+
+.header-searchicon {
+   
+    height: 50px;
+    width: auto;
+    background-color: #cd9042;
+}
+.IN {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.header-option {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.header-optionone {
+    font-size: 10px;
+    
+    color: #fff;
+}
+
+.header-optiontwo {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header-optionbasket {
+    display: flex;
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sell {
+ background-color: whitesmoke;
+ height: 90px;
+ width: 100%;
+
+
+}
+
+
+.sellone {
+    margin-right: 80%;
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1%;
+    
+
+}
+
+.sellbtn {
+    color : black;
+    margin-left: 80%;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    border-color: none;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.offer {
+    background-color: #f8f5f0;
+    width: auto;
+    height: 500px;
+}
+
+.offerone {
+    margin-right: 70%;
+    
+   
+    text-align: center;
+    padding-top: 3%;
+}
+
+.offerbtn {
+    background-color: rgb(35, 130, 168);
+    color : white;
+   height: 40px;
+   width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-color: none;
+    margin-right: 80%;
+    padding-right: 3%;
+    border-radius: 35px;
+    
+}
+
+.offerp {
+   
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.offerpone {
+    
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.startbtn {
+    color : black;
+    margin-left: 25%;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    border-color: none;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.offerimg  {
+  
+    margin-left: 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+   
+}
+ 
+.offerimg img {
+    height: 700px;
+    width: auto; 
+   
+    margin-left: 10%;
+    padding-left: 10%;
+    padding-bottom: 200px;
+    position: absolute;
+    
+}
+
+.amazon {
+    background-color: rgb(202, 232, 243);
+    height: 600px;
+    width: 100%;
+}
+
+.why {
+    margin-right:60%;
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1%;
+    
+
+}
+
+.card-body {
+    font-size: 58px;
+}
+
+.card-img {
+    height: 64px;
+    width: auto;
+}
+
+.card-title {
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.card-lead {
+    font-weight: 100;
+    font-size: 20px;
+
+
+}
+
+.learn {
+    background-color: rgb(113, 154, 241);
+    height: 700px;
+    width: auto;
+    border-radius: 200px;
+  
+   
+}
+.learnp {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+.learnbtn {
+    color : black;
+    margin-left: 45%;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    border-color: none;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+
+.ratio-16x9{
+  
+    height: 600px;
+    width: auto;
+   padding-right: 20%;
+  }
+  .year {
+    height: 350px;
+    width: auto;
+    background-color: #e9e5e1;
+   
+    border-radius: 50px;
+  }
+  .yearqts{
+    color: rgb(27, 160, 212);
+    font-size: 100px;
+    font-weight: 600;
+    margin-right: 80%;
+   
+  }
+
+  .yearp{
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 10%;
+
+  }
+  .yearnm{
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 70%;
+
+  }
+  .yearsell{
+    margin-right: 70%;
+  }
+  .click{
+    font-weight: 900;
+    font-size: 20px;
+
+  }
+  .what{
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 40%;
+
+  }
+  .tn{
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 5%;
+  }
+  .today{
+    background-color: #c9f4fc;
+    width: auto;
+    height: 500px;
+  }
+  .sst{
+    margin-right: 50%;
+    
+   
+    text-align: center;
+    padding-top: 8%;
+
+  }
+  .todayimg{
+    margin-left: 35%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 90px;
+    
+  }
+  .tdyimg{
+    margin-left: 20%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+   
+
+  }
+  .ssth{
+    font-weight: 900;
+    font-size: 60px;
+    margin-right: 5%;
+  
+
+  }
+ .sstp{
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 5%;
+  
+ }
+.back{
+    height: 50px;
+    width: auto;
+    background-color: #37475a;
+    
+}
+.backp{
+    color: #fff;
+}
+.footer {
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    justify-content: space-around;
+    display: flex;
+}
+.ul p {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    
+}
+.footerpanel{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80%;
+    height: 40px;
+    margin-top: 10px;
+}
+.ftbtn{
+    color: white;
+    background-color: #222f3d;
+    margin-left: 5%;
+    height: 40px;
+    margin-top: 10px;
+    
+   
+   
+}
+.ftl{
+    list-style: none;
+    margin-right: 80%;
+    display: flex;
+    align-items: center;
+    position: center;
+justify-content:space-evenly;
+    
+ flex-direction: row;
+}
+
+.footer-panel1 {
+    background-color: #0f1111;
+    height: 500px;
+}
+.ftp1{
+    color: white;
+  
+    justify-content:space-around;
+    display: flex;
+}
+.ftp2{
+    color: white;
+  
+    justify-content:space-around;
+    display: flex;
+}
+.ftp3{
+    color: white;
+  
+    justify-content:space-around;
+    display: flex;
+}
+  
+
+     
+
+
+
+
+
+
+
